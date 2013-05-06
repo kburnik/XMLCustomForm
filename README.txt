@@ -10,21 +10,21 @@ XML powered Web Forms via PHP implementation
 
 Features
 ========
-XML based structure
-Simple language and label handling
-Regular Expression checking
-Post duplication detection
-Mandatory fields
-Simple list and option importing (e.g. list of countries in seperate XML file)
-File upload with file type restrictions
-Simple Class extending with "hook" functionality == simple user form implementation
+ * XML based structure
+ * Simple language and label handling
+ * Regular Expression checking
+ * Post duplication detection
+ * Mandatory fields
+ * Simple list and option importing (e.g. list of countries in seperate XML file)
+ * File upload with file type restrictions
+ * Simple Class extending with "hook" functionality == simple user form implementation
 
 
 Samples
 ========
-Main form XML file: userforms/accreditation/accreditation-form.xml
-Language resource file: userforms/accreditation/accreditation-resources-en.xml
-List of countries: xml/countries-resources.xml
+ * Main form XML file: userforms/accreditation/accreditation-form.xml
+ * Language resource file: userforms/accreditation/accreditation-resources-en.xml
+ * List of countries: xml/countries-resources.xml
 
 
 -----
