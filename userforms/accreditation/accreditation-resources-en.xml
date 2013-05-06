@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+	<resource id="title" value="Men's Olympic Qualification Tournament, Varaždin, 6. - 8. 4. 2012. - Media Accreditation" />
+	<resource id="description" value="Please fill out this form " />
+	<resource id="errormessage" value="Please correct highlighted fields!" />
+	<resource id="duplicatemessage" value="Your data has already been submitted!" />
+	<resource id="exceptionmessage" value="Unexpected error occured!" />	
+	<resource id="successmessage" value="Thank you for submitting your accreditation request!" />
+	
+	<resource id="genderError" value="Please state gender" />
+	<resource id="birthError" value="Please enter valid birth date (you have to be 18 at least)" />
+	<resource id="passportError" value="Please enter your passport number" />	
+	<resource id="organizationError" value="Please enter name of your organization" />
+	<resource id="presscardError" value="Enter your Press card / AIPS number" />
+	<resource id="portraitError" value="Please submit a photo as requested" />
+	<resource id="passportPhotoError" value="Please submit a Press card / AIPS scan as requested" />	
+	<resource id="regexErrName" value="Please enter your name" />
+	<resource id="regexErrSurname" value="Please enter your surname" />
+	<resource id="regexErrAddress" value="Please enter a valid address" />
+	<resource id="regexErrCity" value="Please enter your city" />
+	<resource id="regexErrCountry" value="Please enter your country" />
+	<resource id="regexErrZipcode" value="Please enter your Zip Code" />
+	<resource id="regexErrPhone" value="Please enter your phone number" />
+	<resource id="regexErrMail" value="Please enter your primary e-mail" />
+	<resource id="regexErrUsername" value="Please enter a valid username" />
+	<resource id="regexErrPassword" value="Please enter a valid password" />	
+	
+	<resource id="lblLastName" value="Last name" />	
+	<resource id="lblFirstName" value="First name" />	
+	<resource id="lblMail" value="E-mail address" />	
+	<resource id="lblGender" value="Gender" />	
+	<resource id="lblBirth" value="Date of birth (d.m.Y.)" />	
+	<resource id="lblPassport" value="Passport number" />	
+	<resource id="lblCountry" value="Country" />	
+	<resource id="lblFunction" value="Function" />	
+	<resource id="lblOrganization" value="Name of organization" />	
+	<resource id="lblPresscard" value="Press Card Nr / AIPS Nr" />	
+	<resource id="lblVisa" value="VISA required" />	
+	<resource id="lblPortrait" value="Upload your portrait photo" />	
+	<resource id="lblPassportScan" value="Upload your Press card / AIPS scan" />	
+	<resource id="lblEnterNumber" value="Spam protection - Enter the number from this image" />
+	<resource id="lblWrongNumber" value="Please reenter the number correctly" />
+	
+	<resource id="lblSubmit" value="Send request for accreditation" />	
+	
+	
+	<resource id="functionOptions">
+		<option value="Writing Journalist">Writing Journalist</option>
+		<option value="Radio Journalist">Radio Journalist</option>
+		<option value="TV Journalist">TV Journalist</option>
+		<option value="Web Portal Journalist">Web Portal Journalist</option>
+		<option value="Photographer">Photographer</option>
+		<option value="Other">Other</option>
+	</resource>
+	<resource id="genderOptions">
+		<option value="M">Male</option>
+		<option value="F">Female</option>
+	</resource>
+	
+</resources>

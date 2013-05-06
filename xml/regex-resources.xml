@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+	<resource id="regexEntry" value="/^([A-Za-zČčĆćĐđŠšŽž-]{2,}){1,}/u" />
+	<resource id="regexName" value="/^([ ]{0,}[A-Za-zČčĆćĐđŠšŽž-]{2,}[ ]{0,}){1,}$/u"  />
+	<resource id="regexAddress" value="/^(([^ ]{2,})([ ]{1,}))([^ ]{1,})/u" />
+	<resource id="regexPhone" value="/^[0-9 \-\/\(\)\+]{8,25}$/u" />
+	<resource id="regexNumber" value="/^[0-9 ]{5,12}$/u" />
+	<resource id="regexMail" value="/[.+a-zA-Z0-9_-]+@[a-zA-Z0-9-]+.[a-zA-Z]+/" />
+	<resource id="regexUsername" value="/^[A-Za-z_.\@\-0-9]{4,}$/u" />
+	<resource id="regexPassword" value="/^[A-Za-z_.\@\-0-9]{6,}$/u" />
+</resources>

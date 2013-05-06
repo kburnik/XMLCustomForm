@@ -1,0 +1,85 @@
+.custom-form {
+	font:12px Arial
+}
+
+.custom-form .control {
+	padding:4px;
+}
+
+.custom-form .control.valid {
+	background:#ddffdd;
+}
+.custom-form .control.invalid {
+	background:#ffdddd;
+}
+
+.custom-form span.mandatory {
+	color:red;
+}
+.custom-form .control-label {
+	font-weight:bold;
+}
+
+.custom-form .control .pre-input {
+	display:block;
+}
+
+.custom-form .input-field {
+	
+}
+
+.custom-form .error-message {
+	color:red;
+	display:block;
+}
+
+.custom-form .control {
+	display:block;
+	margin-bottom:10px;
+}
+
+
+.custom-form .control.valid.type-captcha {
+	background:transparent;
+}
+
+.custom-form .control .file-surrogate-link {
+	display:block;
+}
+
+.custom-form .captcha-image {
+	display:block;
+	margin:5px;
+	border:1px solid black;
+}
+
+.custom-form-preambule {
+	font:12px Arial;
+}
+
+.custom-form-preambule .message {
+	padding:8px;
+	font-size:14px;
+	background:#eeeeee;
+}
+.custom-form-preambule .message.success {
+	color:#008800;
+}
+
+.custom-form-preambule .message.error {
+	color:red;
+}
+
+.custom-form-preambule .title {
+
+}
+
+.custom-form-preambule .description {
+
+}
+
+
+
+
+
+

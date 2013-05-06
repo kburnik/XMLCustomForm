@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources language="hr">
+	<resource id="title" value="Medijska akreditacija - Predolimpijski kvalifikacijski turnir, Varaždin, 6. - 8. 4. 2012." />
+	<resource id="description" value="Molimo ispunite obrazac" />
+	<resource id="errormessage" value="Molimo ispravite naznačena polja!" />
+	<resource id="duplicatemessage" value="Vaši podaci su već poslani!" />
+	<resource id="exceptionmessage" value="Neočekivana pogreška!" />	
+	<resource id="successmessage" value="Vaši podaci su poslani! Hvala na prijavi!" />
+	
+	<resource id="genderError" value="Odaberite vaš spol" />
+	<resource id="birthError" value="Unesite vaš datum rođenja" />
+	<resource id="passportError" value="Unesite valjani broj putovnice" />	
+	<resource id="organizationError" value="Unesite ispravno ime vaše organizacije" />
+	<resource id="presscardError" value="Upišite broj vaše novinarske kartice" />
+	<resource id="portraitError" value="Odaberite fotografiju" />
+	<resource id="passportPhotoError" value="Odaberite ispravnu fotografiju" />	
+	<resource id="regexErrName" value="Upišite ispravno ime!" />
+	<resource id="regexErrSurname" value="Upišite ispravno prezime!" />
+	<resource id="regexErrAddress" value="Upišite ispravnu adresu (ulicu i broj)!" />
+	<resource id="regexErrCity" value="Upišite vaš grad/mjesto stanovanja" />
+	<resource id="regexErrCountry" value="Upišite državu" />
+	<resource id="regexErrZipcode" value="Upišite poštanski broj" />
+	<resource id="regexErrPhone" value="Upišite ispravan broj telefona" />
+	<resource id="regexErrMail" value="Upišite ispravno vašu primarnu e-mail adresu" />
+	<resource id="regexErrUsername" value="Upišite ispravno korisničko ime (min 4 slova i/ili znamenke)" />
+	<resource id="regexErrPassword" value="Upišite ispravnu lozinku (min 6 slova i/ili znamenke)" />	
+	
+	<resource id="lblLastName" value="Prezime" />	
+	<resource id="lblFirstName" value="Ime" />	
+	<resource id="lblMail" value="E-mail adresa" />	
+	<resource id="lblGender" value="Spol" />	
+	<resource id="lblBirth" value="Datum rođenja (d.m.Y.)" />	
+	<resource id="lblPassport" value="Broj putovnice" />	
+	<resource id="lblCountry" value="Država" />	
+	<resource id="lblFunction" value="Funkcija" />	
+	<resource id="lblOrganization" value="Naziv organizacije" />	
+	<resource id="lblPresscard" value="Press Card Nr. / AIPS Nr" />	
+	<resource id="lblVisa" value="VISA potrebna" />	
+	<resource id="lblPortrait" value="Odaberite vašu fotografiju za akreditaciju" />	
+	<resource id="lblPassportScan" value="Pošaljite name preslik vaše novinarske isprave (Press card / AIPS)" />	
+	<resource id="lblEnterNumber" value="Zaštita - Prepišite broj sa slike" />
+	<resource id="lblWrongNumber" value="Upišite ispravno broj zaštite!" />
+		
+	<resource id="lblSubmit" value="Pošalji zahtjev za akreditacijom" />	
+	
+	
+	<resource id="functionOptions">
+		<option value="Writing Journalist">Novinarstvo u tisku</option>
+		<option value="Radio Journalist">Radio novinarstvo</option>
+		<option value="TV Journalist">TV novinarstvo</option>
+		<option value="Web Portal Journalist">Web Portal novinarstvo</option>
+		<option value="Photographer">Fotograf</option>
+		<option value="Other">Drugo</option>
+	</resource>
+	<resource id="genderOptions">
+		<option value="M">Muško</option>
+		<option value="F">Žensko</option>
+	</resource>
+	
+</resources>

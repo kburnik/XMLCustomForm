@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="accreditation" method="post" mandatory-indicator=" * " default-language="en">
+
+	<resources src="../../xml/countries-resources.xml" />
+	<resources language="en" src="../../xml/regex-resources.xml" />	
+	
+	<resources language="en" src="accreditation-resources-en.xml"  />	
+	<resources language="hr" src="accreditation-resources-hr.xml"  />
+	
+	<defaults>
+		<field mandatory="true" type="text" store="true" validate="true" />
+	</defaults>
+	
+	<title>{$title}</title>
+	<description>{$description}</description>
+	<errormessage>{$errormessage}</errormessage>
+	<duplicatemessage>{$duplicatemessage}</duplicatemessage>
+	<exceptionmessage>{$exceptionmessage}</exceptionmessage>
+	<successmessage showform="false">{$successmessage}</successmessage>
+	
+	<fields>
+		<field
+			id="surname"
+			type="text"
+			label="{$lblLastName}"			
+			errormessage="{$regexErrName}"
+			mandatory="false"
+		/>
+		<field
+			id="name"
+			type="text"
+			label="{$lblFirstName}"			
+			errormessage="{$regexErrSurname}"
+			mandatory="false"
+		/>
+		
+		<field
+			id="mail"
+			type="text"
+			label="{$lblMail}"			
+			errormessage="{$regexErrMail}"
+			mandatory="false"
+		/>
+		
+		<field 
+			id="gender"
+			type="radio"
+			label="{$lblGender}"
+			defaultvalue=""
+			options="{$genderOptions}"
+			mandatory="false"
+			errormessage="{$genderError}"
+		/>		
+		<field
+			id="birth"
+			type="text"
+			label="{$lblBirth}"
+			mandatory="false"
+			format="Y-m-d"
+			defaultvalue=""
+			bounds = "now - 100 years;now - 18 years"
+			errormessage="{$birthError}"
+		/>	
+		<field 
+			id="passport"
+			type="text"
+			label="{$lblPassport}"
+			defaultvalue=""
+			mandatory="false"
+			errormessage="{$passportError}"
+		/>
+			
+		<field
+			id="country"
+			type="select"
+			options="{$countryList}"
+			label="{$lblCountry}"
+			defaultvalue = "Croatia"
+		/>
+		
+		<field
+			id="occupation"
+			label="{$lblFunction}"
+			type="select"
+			options="{$functionOptions}"
+			defaultvalue=""
+		/>
+		<field
+			id="organization"
+			label="{$lblOrganization}"
+			type="text"
+			mandatory="false"
+			errormessage="{$organizationError}"
+		/>
+		<field
+			id="presscard"
+			label="{$lblPresscard}"
+			type="text"
+			mandatory="false"
+			errormessage="{$presscardError}"
+		/>
+		<field
+			id="visa"
+			label="{$lblVisa}"
+			type="checkbox"
+			checkedvalue="true"
+			checked = "false"
+		/>
+		
+		<field
+			id="portrait_photo"
+			label="{$lblPortrait}"
+			type="file"
+			accept="Image"
+			restrict="Image(1000,1000);"
+			errormessage="{$portraitError}"
+		/>
+
+		<field
+			id="presscard_photo"
+			label="{$lblPassportScan}"
+			type="file"
+			accept="Image"
+			restrict="Image(1000,1000);"
+			errormessage="{$passportPhotoError}"
+		/>	
+		
+		
+		<field
+			type="captcha"
+			id="turing"
+			label="{$lblEnterNumber}"
+			errormessage="{$lblWrongNumber}"
+		/>
+	
+		<field
+			id="@sbm"
+			type="submit"
+			defaultvalue="{$lblSubmit}"
+		/>
+		
+	</fields>
+</form>
